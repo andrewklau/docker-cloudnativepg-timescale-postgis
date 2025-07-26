@@ -17,8 +17,8 @@ jobs:
       matrix:
         include:
           - postgres_version: "17"
-            # renovate datasource=docker depName=ghcr.io/cloudnative-pg/postgresql
-            cnpg_version: 17-3.5-154
+            # renovate datasource=docker depName=ghcr.io/cloudnative-pg/postgis
+            cnpg_version: 17-3.5-156
             latest: "true"
     steps:
       - name: Checkout
